@@ -1,0 +1,27 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true      # comment out
+
+# Setup
+title:               To the backbone
+tagline:             ""
+description:         'Webエンジニアpinektaの技術的なものからそうでないものまでを書く'
+url:                 ''
+baseurl:             ''
+paginate:            5
+twitter_username: pinekta
+github_username:  pinekta
+
+# About/contact
+author:
+  name:              pinekta
+  url:               https://twitter.com/pinekta
+  email:             h03a081b@gmail.com
+
+# Gems
+gems: [jekyll-paginate]
+
+# Custom vars
+version:             1.0.0
