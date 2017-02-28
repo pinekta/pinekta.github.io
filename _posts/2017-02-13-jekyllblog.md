@@ -9,40 +9,49 @@ categories: jekyll update
 
 まずは、GitHub Pagesを使えるようにするには、
 自分のGitHubアカウントに
-[ユーザ名].github.io
-というリポジトリを作成します。
+`[ユーザ名].github.io`
+というリポジトリを作成します。  
 そして、そのリポジトリのmasterブランチに適当なHTMLファイル、
 例えばindex.htmlをプッシュすると、
 
-https://[ユーザ名]/
+`https://[ユーザ名].github.io/`  
 でアクセスすると、プッシュしたHTMLファイルが表示されます。
 
-とても簡単ですね。
+とても簡単。
+ただ、これだけだと自分でHTML, CSSを組まなければいけないので大変。
+記事が増えたときの管理も面倒。
 
 ## Jekyll で簡単にページを作成する
 
-ただ、これだけですと、
-自分でHTML、CSSを組まなければいけないので大変です。
-そして、記事が増えた場合の管理など大変です。
+そこで「Jekyll」の出番です。  
+JekyllはMarkdownをHTMLに変換するツールです。  
+エンジニアにとっては馴染みがあるMarkdownでサイトは作れるのは非常に楽です。
 
-それを、簡単にしてくれるのが「Jekyll」です。
-JekyllはMarkdownをHTMLに変換するツールです。
-エンジニアにとっては馴染みがあるMarkdownでサイトは作れるのは非常に楽ですね。
+[Jekyll](https://jekyllrb.com/)
+
+![Jekyll](/public/image/20170213/jekyll.png)
 
 ### Jekyll のインストール
 
+
+以下の手順でインストールします。  
+なお、環境はMac OS Sierra 10.12.3 で行なっています。
+
+１．Jekyll, Bundlerをインストール
 ```
-sudo gem install jekyll
-sudo gem install bundler
+$ sudo gem install jekyll
+$ sudo gem install bundler
 ```
 
+２．不要なファイルを削除しJekyllプロジェクトのひながたを作成
 ```
-rm -f [ユーザ名].github.io/index.html
-jekyll new --force [ユーザ名].github.io
+$ rm -f [ユーザ名].github.io/index.html
+$ jekyll new --force [ユーザ名].github.io
 ```
 
+３．確認
 ```
-cd [ユーザ名].github.io
+$ cd [ユーザ名].github.io
 ➜  pinekta.github.io git:(master) ✗ ls -l
 total 56
 -rw-r--r--  1 keita  staff   953  2 11 13:55 Gemfile
@@ -55,8 +64,9 @@ drwxr-xr-x  3 keita  staff   102  2 11 13:55 _posts
 -rw-r--r--  1 keita  staff   213  2 11 13:55 index.md
 ```
 
+４．Jekyllを起動
 ```
-jekyll serve
+$ jekyll serve
 Configuration file: /Users/keita/Documents/gitProjects/pinekta.github.io/_config.yml
 Configuration file: /Users/keita/Documents/gitProjects/pinekta.github.io/_config.yml
             Source: /Users/keita/Documents/gitProjects/pinekta.github.io
@@ -71,63 +81,80 @@ Configuration file: /Users/keita/Documents/gitProjects/pinekta.github.io/_config
       Regenerating: 1 file(s) changed at 2017-02-11 14:05:07 ...done in 0.195867 seconds.
 ```
 
-http://127.0.0.1:4000/
-にアクセスすると、Jekyllが生成したページにアクセスすることができます。
+`Server address: http://127.0.0.1:4000/` にあるとおり、
+http://127.0.0.1:4000/ にアクセスすると、Jekyllが生成したページにアクセスすることができます。
 
-![Jekyll デフォルトのページ]
+![Jekyll default1](/public/image/20170213/jekyll_default1.png)
+以下は記事のページです。
+![Jekyll default2](/public/image/20170213/jekyll_default2.png)
+以下はaboutリンクのページです。
+![Jekyll default3](/public/image/20170213/jekyll_default3.png)
 
-Jekyllのプロジェクトディレクトリ（[ユーザ名].github.io）に
-存在するマークダウンファイルがindex.htmlになります。
+シンプルだけれどもよいデザインです。
+そのまま使えそうです。
 
-JekyllのプロジェクトディレクトリにMarkdownファイルを配置すれば、
-自動でHTMLに変換されるかと思ったんですが、違うようです。
+### 記事の追加
 
-HTMLに変換するには、Markdownで書いた拡張子mdのファイルの内容の一番最初に以下を追加してください。
-
+記事を追加するには`_posts` ディレクトリにマークダウンファイルを追加します。
 ```
----
-layout: page
-title: GitHub PagesにJekyllを使ってブログサイトを作る
-permalink: /jekyll/
----
+$ vim _posts/2017-02-16-test.md
 ```
 
-layoutはページのレイアウトは何にするか、
-titleはページのタイトル
-permalinkはページのURLをそれぞれ指定できます。
-保存すると、Jekyllが変更をwatchしているので、
-すぐに反映されます。
+以下の内容を記載します。
+```
+---
+layout: post
+title:  "test"
+date:   2017-02-16 09:32:34 +0900
+categories: test
+---
+I do test.
+```
 
-http://127.0.0.1:4000/jekyll/
-にアクセスすると、ページが表示されます。
-楽ですね。
+すると、トップページに記事が追加されます。
+
+![post1](/public/image/20170213/post1.png)
+以下は記事のページです。
+![post2](/public/image/20170213/post2.png)
+
+記事のファイル名は
+`YYYY-mm-dd-適当な値.md` である必要があります。  
+このようにしないとJekyllがうまくファイルを認識してくれません。
+
+また、記事の内容の頭に、記事のレイアウトやタイトル、日付などを記載しなくてはなりません。  
+これを正しく記載していないとうまく表示されない可能性があります。
 
 ### Jekyll のカスタマイズ
 
-タイトルが
-「Your awesome title」になっているので変更しましょう。
+次にタイトルを編集します。
 
-_config.ymlに各種設定があるので以下のように編集します。
-```_config.yml
+`_config.yml`に各種設定があるので編集します。
+```
 title: To the backbone
 email: h03a081b@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Webエンジニアpinektaの技術的なものからそうでないものまでを書く
+  pinektaのブログ
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pinekta
 github_username:  pinekta
 ```
 
-_config.ymlですが、こちらは変更をwatchして自動で反映とはならないようです。
+変更したら再度Jekyllを再起動します。
 ```
-jekyll serve
+$ jekyll serve
 ```
-で設定をリロードさせる必要があります。
 
-テーマを別のものに変更したかったので、
-以下のリポジトリのテーマをcloneしたものを[ユーザ名].github.ioのディレクトリにかぶせて再度
-jekyll serverしたところ、以下のエラーに遭遇
+これでタイトルなどといったサイト情報の編集ができました。
+
+## テーマの変更
+
+デフォルトのテーマでも十分使えそうだけれども、
+もう少しシンプルなテーマを使いたかったので  
+[Lanyon](http://lanyon.getpoole.com/) というテーマを使うことにした。
+
+横着して、Lanyonをローカルにcloneしたものをそのままコピーして被せて、
+`jekyll serve` したところ、エラーになる。
 
 ```
 ➜  pinekta.github.io git:(master) ✗ jekyll serve
@@ -141,14 +168,14 @@ Configuration file: /Users/keita/Documents/gitProjects/pinekta.github.io/_config
 Since v3.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Check https://jekyllrb.com/docs/upgrading/ for more info.
 ```
 
-ググってみると、_config.ymlに記述を追加すればいい模様。
-https://github.com/jekyll/jekyll/issues/4124
+ググってみると、GitHubの[Jekyllのイシュー](https://github.com/jekyll/jekyll/issues/4124) に _config.ymlに記述を追加すればいいとあったので、
+
 ```
 # Gems
 gems: [jekyll-paginate]
 ```
 
-を追加して再度jekyll serveしたところ下記のエラーに
+を追加して再度jekyll serveしたところ下記のエラーに...
 ```
 ➜  pinekta.github.io git:(master) ✗ jekyll serve
 Configuration file: /Users/keita/Documents/gitProjects/pinekta.github.io/_config.yml
@@ -157,19 +184,18 @@ Configuration file: /Users/keita/Documents/gitProjects/pinekta.github.io/_config
 jekyll 3.4.0 | Error:  jekyll-paginate
 ```
 
-Gemfileを
+そのため、 Gemfileの
 ```
 gem "jekyll", "3.4.0"
 ```
 
-を下記に変更
+を下記に変更した。
 ```
 gem "jekyll"
 gem "jekyll-paginate"
 ```
 
-気を取り直して、
-jekyll serve するとまた下記のエラーが。
+気を取り直して、jekyll serve するとまた下記のエラーが...
 ```
 ➜  pinekta.github.io git:(master) ✗ jekyll serve
 Configuration file: /Users/keita/Documents/gitProjects/pinekta.github.io/_config.yml
@@ -181,36 +207,35 @@ Configuration file: /Users/keita/Documents/gitProjects/pinekta.github.io/_config
 Since v3.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Check https://jekyllrb.com/docs/upgrading/ for more info.
 ```
 
-https://github.com/poole/poole/issues/99
-によると、permalinkの設定が変わった模様。
+[GitHubのイシュー](https://github.com/poole/poole/issues/99) によると
+permalinkの設定が変わった模様。  
 _config.ymlの下記をコメントアウトする。
 ```
 #relative_permalinks: true      # comment out
 ```
 
-たぶん、テーマの_config.ymlで書き換えたのがいけなかった模様
 再度、jekyll serveすると
 
-![]
-というように新しいテーマで表示されました。
+![laynon](/public/image/20170213/laynon.png)
+というように新しいテーマで無事表示される。
 
-これでブログを書いていきます！
+最終的には、
+* ヘッダのハンバーガーメニューとサブタイトルの削除、フッタの追加, aboutページの削除
+`_layout/default.html` を修正
+* トップページの記事を20語以降は「続きを読む」リンクを表示する
+`index.html` を修正 ex.[Liquid truncatewords](http://shopify.github.io/liquid/filters/truncatewords/)
 
-https://pages.github.com/
-
-上記にアクセスしたところ、真っ白なページが表示された。
-index.mdは不要のこと。
-すでにあるjekyllディレトリにテーマのディレクトリをcpで被せたからこうなった様子。
-index.mdを消して再度デプロイしなおしたら表示されるようになった。
-
-
-
-## 複数GitHub Pagesを使いたい場合は？
+## 複数GitHub Pagesを使いたい場合
 
 [アカウント名].github.io というリポジトリを作ってしまったら、
-同じリポジトリを作れないので、GitHub Pagesは一つしか作れない、というわけでもありません。
+同じリポジトリを作れないので、GitHub Pagesは一つしか作れない？  
+実はそうではない。
 
 リポジトリに「gh-pages」というブランチ名でプッシュすれば、
-それがGitHub Pagesとなります。
+それがGitHub Pagesとなる。
 
+OSSのGitHub Pagesはこっちのほうが多い思う。
 
+## まとめ
+
+Jekyll on GitHub Pages で簡単にブログができる。
