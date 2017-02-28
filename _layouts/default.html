@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="ja">
 
   {% include head.html %}
 
   <body>
 
+    {% comment %}
     {% include sidebar.html %}
+    {% endcomment %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
@@ -24,8 +26,18 @@
       </div>
     </div>
 
+    {% comment %}
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    {% endcomment %}
 
+    <footer>
+      <div class="container">
+        <div>{{ site.description | newline_to_br }}</div>
+        <small>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</small>
+      </div>
+    </footer>
+
+    {% comment %}
     <script>
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
@@ -43,5 +55,6 @@
         }, false);
       })(document);
     </script>
+    {% endcomment %}
   </body>
 </html>

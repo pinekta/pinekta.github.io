@@ -1,7 +1,8 @@
 ---
-layout: page
-title: GitHub PagesにJekyllを使ってブログサイトを作る
-permalink: /jekyll/
+layout: post
+title:  "GitHub PagesにJekyllを使ってブログサイトを作る"
+date:   2017-02-13 13:55:31 +0900
+categories: jekyll update
 ---
 
 ## GitHub Pagesで静的なサイトを立てる
@@ -197,7 +198,10 @@ _config.ymlの下記をコメントアウトする。
 
 https://pages.github.com/
 
-
+上記にアクセスしたところ、真っ白なページが表示された。
+index.mdは不要のこと。
+すでにあるjekyllディレトリにテーマのディレクトリをcpで被せたからこうなった様子。
+index.mdを消して再度デプロイしなおしたら表示されるようになった。
 
 
 

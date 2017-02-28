@@ -7,10 +7,10 @@ permalink:           pretty
 # Setup
 title:               To the backbone
 tagline:             ""
-description:         'Webエンジニアpinektaの技術的なものからそうでないものまでを書く'
+description:         'This blog is a blog of Web engineer <a href="https://twitter.com/pinekta" target="_blank">@pinekta.</a> <br>Technical tips as well as things I felt in the development work are written.'
 url:                 ''
 baseurl:             ''
-paginate:            5
+paginate:            10
 twitter_username: pinekta
 github_username:  pinekta
 
