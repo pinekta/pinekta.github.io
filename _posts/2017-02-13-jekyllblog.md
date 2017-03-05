@@ -236,6 +236,28 @@ _config.ymlの下記をコメントアウトする。
 
 OSSのGitHub Pagesはこっちのほうが多い思う。
 
+## 独自ドメインにする
+
+GitHub Pagesで作ったサイトを独自ドメインにする場合は、
+プロジェクトルートにCNAMEというファイルに設定したドメインを記載するだけです。
+
+つまりこのブログの場合は
+```
+$ echo blog.pinekta.tech > CNAME
+```
+
+そして、設定したいドメイン（blog.pinekta.tech）のAレコードがGitHub PagesのIPにすればOKです。
+[GitHub のこのページ](https://help.github.com/articles/setting-up-an-apex-domain/) に書かれているとおり、
+```
+192.30.252.153
+192.30.252.154
+```
+をIPにしたAレコードをお使いのDNSサーバに設定してください。
+
+ただ、これだけだとHTTPSで使用することはできない。  
+`[ユーザ名].github.io` だとHTTPSを使えたが、独自ドメインにすると使えない模様。  
+[CloudFlare](https://www.cloudflare.com/) を利用するとできるらしいが、また今度。
+
 ## まとめ
 
 Jekyll on GitHub Pages で簡単にブログができる。
