@@ -2,7 +2,7 @@
 layout: post
 title:  "『実践Node.jsプログラミング』を読んだ"
 date:   2017-02-14 19:59:30 +0900
-categories: book
+categories: Node.js book
 ---
 
 『実践Node.jsプログラミング』という本を読んだ。  
@@ -63,7 +63,7 @@ Node.jsはJavaScriptなので非常にとっつきやすい言語かと思った
 ローレベルなものからリアルタイムアプリケーションまで作れる、とても面白いものだと思う。  
 何かNode.jsで作りたくなった。  
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=pinekta-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=479812947X&linkId=ad7a634651a3a4d8ca99ea3f879b7762&bc1=ffffff&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
-</iframe>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=pinekta01-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=479812947X&linkId=8450b55af31d3a22c5472b5ba433c75e&bc1=ffffff&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
+    </iframe>
 
-<a target="_blank"  href="https://www.amazon.co.jp/gp/product/479812947X/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=479812947X&linkCode=as2&tag=pinekta-22&linkId=7ffa4177f169a58c03edadab1edaf293"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=479812947X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta-22&l=am2&o=9&a=479812947X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/479812947X/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=479812947X&linkCode=as2&tag=pinekta01-22&linkId=116d428cb0b6fdea2e6e950db56b9092"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=479812947X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta01-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta01-22&l=am2&o=9&a=479812947X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
