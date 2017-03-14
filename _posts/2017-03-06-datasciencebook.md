@@ -7,6 +7,8 @@ categories: book
 
 データサイエンス、機械学習の勉強のために『ゼロからはじめるデータサイエンス』を読んだ。
 
+<img src="/public/image/20170306/datascience.jpg" alt="datascience" width="350">
+
 本書の構成を大きく分けると、１章から１１章まではデータサイエンスの土台となる基礎部分について、
 １２章から２２章までは応用、２３と２４はRDBとMapReduceの説明になっている。
 
