@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "『ゼロからはじめるデータサイエンス』を読んだ"
+date:   2017-03-06 22:45:19 +0900
+categories: book
+---
+
+データサイエンス、機械学習の勉強のために『ゼロからはじめるデータサイエンス』を読んだ。
+
+本書の構成を大きく分けると、１章から１１章まではデータサイエンスの土台となる基礎部分について、
+１２章から２２章までは応用、２３と２４はRDBとMapReduceの説明になっている。
+
+読み進めるとわかるが、各章の内容が浅い…
+わずかばかりの用語説明とPythonのコードがあるのみで、あとは各自調べてね、というスタンス。  
+数学に関する章も多く、途中から高校の教科書を引っ張り出したくらいだ。  
+
+Amazonのレビューの評価が低いのもうなづける。  
+この本だけでデータサイエンスを学ぼうとしているならやめたほうがいい。  
+
+これを読むと、データサイエンスという分野が
+本一冊で十分に学べるほどではないことがわかる。
+
+これからデータサイエンスを学ぶ足がかりとして読むならいいかもしれない。
+データサイエンスについて今後学んでいくにあたって、
+どのようなものを学んだらいいかのあたりはつけることができた。
+
+まずは数学の基礎から身につけなくてはいけない。高校の数学から学び直そう。  
+そうじゃないとわからない…
+
+本の内容は以下のとおり。
+```
+はじめに
+1章 イントロダクション
+2章 Python速習コース
+3章 データの可視化
+4章 線形代数
+5章 統計
+6章 確率
+7章 仮説と推定
+8章 勾配下降法
+9章 データの取得
+10章 データの操作
+11章 機械学習
+12章 k近傍法
+13章 ナイーブベイズ
+14章 単純な線形回帰
+15章 重回帰分析
+16章 ロジスティック回帰
+17章 決定木
+18章 ニューラルネットワーク
+19章 クラスタリング
+20章 自然言語処理
+21章 ネットワーク分析
+22章 リコメンドシステム
+23章 データベースとSQL
+24章 MapReduce
+25章 前進しよう、データサイエンティストとして
+付録A 日本語に関する補足
+```
+
+先に述べたとおり、どの章も話が浅い。  
+また、Pythonのコードもスクラッチで書いており、この分野では使用することが当たり前の`Pandas`や`NumPy`、`scikit-learn`といったライブラリを使ったコードではない…  
+原題が『Data Science from Scratch』とあるとおりしょうがないんだが。
+
+今後、どういうことを学べばいいか、それを確認するための本としてはよかったと思う。
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=pinekta01-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4873117860&linkId=9cf94a649987db0f90d2f5e7011715a7&bc1=ffffff&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
+    </iframe>
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4873117860/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4873117860&linkCode=as2&tag=pinekta01-22&linkId=c15da99ed208f8e107b1b845efd178dc"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4873117860&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta01-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta01-22&l=am2&o=9&a=4873117860" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
