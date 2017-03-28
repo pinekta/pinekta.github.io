@@ -8,7 +8,8 @@ permalink:           pretty
 title:               To the backbone
 tagline:             ""
 description:         'This blog is a blog of Web engineer <a href="https://twitter.com/pinekta" target="_blank">@pinekta</a>. <br>Technical tips as well as things I felt in the development work are written.'
-url:                 ''
+#url:                 ''
+url:                 'https://blog.pinekta.tech/'
 baseurl:             ''
 paginate:            10
 twitter_username: pinekta
@@ -21,7 +22,7 @@ author:
   email:             h03a081b@gmail.com
 
 # Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
 
 # Custom vars
 version:             1.0.0
