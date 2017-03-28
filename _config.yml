@@ -22,7 +22,7 @@ author:
   email:             h03a081b@gmail.com
 
 # Gems
-gems: [jekyll-paginate, jekyll-sitemap]
+gems: [jekyll-paginate, jekyll-sitemap, jemoji]
 
 # Custom vars
 version:             1.0.0
