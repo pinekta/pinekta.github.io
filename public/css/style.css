@@ -4,3 +4,8 @@ footer {
   margin-bottom: 1rem;
   border-top: 1px solid #eee;
 }
+.icon-feed-img {
+  display: inline;
+  margin: 0;
+  border-radius: 0;
+}
