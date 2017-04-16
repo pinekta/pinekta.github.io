@@ -3,6 +3,7 @@ layout: post
 title:  "GitHub PagesにJekyllを使ってブログサイトを作る"
 date:   2017-02-13 13:55:31 +0900
 categories: jekyll update
+description: "GitHub PagesにJekyllを使ってブログサイトを作りました。けっこう簡単に作れるのでおすすめ"
 ---
 
 ## GitHub Pagesで静的なサイトを立てる

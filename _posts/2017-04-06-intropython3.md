@@ -3,6 +3,7 @@ layout: post
 title:  "『入門 Python 3』を読んだ"
 date:   2017-04-06 23:50:32 +0900
 categories: book
+description: "来週から本格的にPythonでデータ分析を始めることになるので、そのまえにPythonの復習をすることにした。オライリーの『入門 Python 3』を読んだ。原題は『Introducing Python』。"
 ---
 
 来週から本格的にPythonでデータ分析を始めることになるので、

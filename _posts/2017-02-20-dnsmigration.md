@@ -3,11 +3,13 @@ layout: post
 title:  "DNSをRoute53に移行した"
 date:   2017-02-20 20:53:12 +0900
 categories: AWS
+description: "
+いま使っているドメインである、pinekta.tech のDNSはお名前.comのDNSを使っている。勉強のためにAWS Route53にDNSを移行する。別にお名前.comに不満があるわけではない。DNSは無料で使えている。Route53は無料枠はないようだが、約月額64円と安い。64円ならRoute53にしてみよう。"
 ---
 
 いま使っているドメインである、`pinekta.tech` のDNSはお名前.comのDNSを使っている。  
 勉強のためにAWS Route53にDNSを移行する。  
-別にお名前.comに不満があるわけではない。無料で使えている。  
+別にお名前.comに不満があるわけではない。DNSは無料で使えている。  
 Route53は無料枠はないようだが、[このサイト](https://www.lancork.net/2014/05/amazon-route53-monthly-cost/)によると月額64円と安い。  
 64円ならRoute53にしてみよう。
 

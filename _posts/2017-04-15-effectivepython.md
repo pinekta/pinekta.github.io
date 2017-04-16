@@ -3,6 +3,7 @@ layout: post
 title:  "『Effective Python』を読んだ"
 date:   2017-04-15 21:12:04 +0900
 categories: book
+description: "『Effective Python』を読んだ。Pythonicな書き方、お作法を学ぶのによい本。"
 ---
 
 『Effective Python』を読んだ。  

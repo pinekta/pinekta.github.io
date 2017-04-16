@@ -3,6 +3,7 @@ layout: post
 title:  "Route53とCloudFrontで独自ドメインのGitHub PagesをHTTPS化した"
 date:   2017-02-21 23:10:42 +0900
 categories: AWS
+description: "タイトルのとおりHTTPS化した。さすがにいまどきのページでHTTPSにしてないページはどうかと思う。Let's Encryptなどの無料でSSL証明書を取得できるサービスも出てきたのに、平文でやりとりするのはよくない。今回はCloudFrontを利用するので、SSL証明書をAmazon Certificate Manager(ACM)で無料で利用できる。しかも更新は自動だ！"
 ---
 
 タイトルのとおりHTTPS化した。  
