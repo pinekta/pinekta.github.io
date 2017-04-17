@@ -45,3 +45,5 @@ Pythonの良いところとして、メタクラスやデコレーターを使�
 
 5章はPythonでより速度を出すには、マシンの性能をうまく使うには、ということを処理の並列化によって実現するにあたって注意すべきことが書いてあり、いまのところそれほど性能が求められるようなものを書く予定はないが、今後必ず役に立つと思う。  
 Pythonのパフォーマンスについては、オライリーから『ハイパフォーマンスPython』や『Cython - Cとの融合によるPythonの高速化』といった書籍がありいつか読んでみたい。
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4873117569/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4873117569&linkCode=as2&tag=pinekta02-22&linkId=a0ef74a6850e678f28fe7bb501e8f401"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4873117569&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta02-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta02-22&l=am2&o=9&a=4873117569" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

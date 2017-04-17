@@ -68,3 +68,5 @@ Escの位置を重要視しており、Lite2のキータッチに不満がある
 ミスって顔を伏せると、デスクマットと机の間に挟んだ社是が、それぞれ目にすることができる。  
 
 しばらくはこの環境のままだとは思うが変更があったらブログで報告したいと思う。
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/B000MTELLI/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B000MTELLI&linkCode=as2&tag=pinekta02-22&linkId=5cd3d00700f3d1c85e0c81e73aec180b"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B000MTELLI&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta02-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta02-22&l=am2&o=9&a=B000MTELLI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

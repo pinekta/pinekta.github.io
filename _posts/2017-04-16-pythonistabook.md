@@ -43,3 +43,5 @@ Ansibleについて説明された第6章なんでほとんどPython関係ない
 
 そして次に読む予定の本は積ん読の本ではないという…  
 たぶん統計の緑本かな。
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/B00ZR7WZOU/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B00ZR7WZOU&linkCode=as2&tag=pinekta02-22&linkId=b161def1fe37788291df0fdce93f7063"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B00ZR7WZOU&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta02-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta02-22&l=am2&o=9&a=B00ZR7WZOU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

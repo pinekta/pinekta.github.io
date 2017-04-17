@@ -89,4 +89,4 @@ Chainerなどを使ってディープラーニングなどといった、もっ�
 
 これでデータサイエンス・機械学習の基本的な知識は身につけたから次は数学・統計を学びつつ実践していこうかと思う。
 
-
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4774176311/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774176311&linkCode=as2&tag=pinekta02-22&linkId=66693378ed127837bade9c4b55b7843a"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4774176311&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta02-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta02-22&l=am2&o=9&a=4774176311" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
