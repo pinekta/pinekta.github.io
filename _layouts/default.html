@@ -9,6 +9,30 @@
     {% include sidebar.html %}
     {% endcomment %}
 
+    {% comment %}
+    <!-- 記事一覧 -->
+    {% assign posts_list = site.posts | sort:"date" %}
+    <div class="related">
+      <h2>Posts</h2>
+      <ul class="related-posts">
+        {% for post in posts_list %}
+          {% if post.title != null %}
+            {% if post.layout == "post" %}
+              <li>
+                <h3>
+                  <a href="{{ site.baseurl }}{{ post.url }}">
+                    {{ post.title }}
+                    <small>{{ post.date | date_to_string }}</small>
+                  </a>
+                </h3>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endcomment %}
+
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
