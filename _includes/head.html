@@ -8,16 +8,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   {% if page.title == "Home" %}
+  <link rel="canonical" href="{{ site.url }}/">
   <title>{{ site.title }} &middot; {{ site.tagline }}</title>
   <meta name="description" content="Webエンジニア@pinektaの技術的なTipsや日頃の開発について思っていることが書かれているブログです。"/>
   <meta property="og:title" content="{{ site.title }} - {{ site.tagline }}">
   <meta property="og:description" content="Webエンジニア@pinektaの技術的なTipsや日頃の開発について思っていることが書かれているブログです。">
-  <meta property="og:url" content="{{site.url }}/">
+  <meta property="og:url" content="{{ site.url }}/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ site.title }} - {{ site.tagline }}">
   <meta name="twitter:description" content="Webエンジニア@pinektaの技術的なTipsや日頃の開発について思っていることが書かれているブログです。">
   {% else %}
+  <link rel="canonical" href="{{ {site.url }}{{ page.url }}">
   <title>{{ page.title }} &middot; {{ site.title }}</title>
   <meta name="description" content="{{ page.description }}"/>
   <meta property="og:title" content="{{ page.title }} - {{ site.title }}">
