@@ -70,6 +70,8 @@ Infrastructure as Code はTDDやXPといったプラクティスと非常に親�
 
 技術的な要素についてはとりわけすごいものはないけれど、
 Infrastructure as Codeをチームで使うようにするにはどうしたらよいか、という示唆に非常に富んでいる本である。
-よい本だった。
+よい本だった。  
+今のチームではAMIのテンプレート作成は手作業でやっているので
+まずはPackerを使ってテンプレートを作成できないか検討してみようかな。
 
 <a target="_blank"  href="https://www.amazon.co.jp/gp/product/4873117968/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4873117968&linkCode=as2&tag=pinekta02-22&linkId=cf3acdda65ee867883450630cf8bd6be"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4873117968&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta02-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta02-22&l=am2&o=9&a=4873117968" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
