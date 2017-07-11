@@ -3,20 +3,18 @@ layout: post
 title:  "『Infrastructure as Code』を読んだ"
 date:   2017-07-11 09:40:34 +0900
 categories: book
-description: "オライリーの『Infrastructure as Code』を読んだ。技術的な要素についてはインフラ界隈をウォッチしていればなんてことはないけれど、チームにどうしたらInfurastructure as Codeを根付かせることができるか、というプラクティスは非常に示唆に富んでいるよい本である。"
+description: "オライリーの『Infrastructure as Code −クラウドにおけるサーバ管理の原則とプラクティス』を読んだ。技術的な要素についてはインフラ界隈をウォッチしていればなんてことはないけれど、チームにどうしたらInfurastructure as Codeを根付かせることができるか、というプラクティスは非常に示唆に富んでいるよい本である。"
 ---
 
-オライリーの『Infrastructure as Code』を読んだ。
-説明している技術的な要素についてはインフラ界隈をウォッチしていればなんてことはない内容だと思う。
-この本の内容を簡潔に説明すると、
-* デプロイパイプラインを整備せよ
-* そのためにテストを書け
-
-という内容に尽きる気がする。
-
-上述したなんてことはないというのはInfrastructure as Codeを構成するもの、たとえばAWSなどのクラウド、Ansibleなどのプロビジョニングツール、Dockerなどのコンテナ、このあたりの情報はなんてことはないものだったけれど、Infrastructure as Codeを実現させるための考え方については非常にためになった。
+オライリーの『Infrastructure as Code −クラウドにおけるサーバ管理の原則とプラクティス』を読んだ。
+原題は『Infrastructure as Code -Managing Servers in the Cloud』。  
+この本の内容を簡潔に説明すると、「デプロイパイプラインを整備せよ」「そのためにテストを書け」
+という内容に尽きる。
 
 ![infrastructure-as-code](/public/image/20170711/infrastructure_as_code_book.jpg)
+
+説明している技術的な要素についてはインフラ界隈をウォッチしていればなんてことはない内容だと思う。
+なんてことはないというのはInfrastructure as Codeを構成するもの、たとえばAWSなどのクラウド、Ansibleなどのプロビジョニングツール、Dockerなどのコンテナ、このあたりの情報はなんてことはないものだったけれど、Infrastructure as Codeを実現させるための考え方については非常にためになった。
 
 システムはバグがつきものだし完璧な設計など存在せずフェーズによって設計は変化・進化していくものなので、
 バグの修正やシステムの変更を手早くリリースするためにデプロイパイプラインを整備する。  
