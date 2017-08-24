@@ -43,7 +43,7 @@ body {
 html {
   font-family: "PT Serif", Georgia, "Times New Roman", "メイリオ", "Meiryo", serif;
 }
-.win p {
+.win p, .win li, .win div > a {
   font-family: "PT Serif", Georgia, "Times New Roman", "Yu Mincho", "YuMincho", "メイリオ", "Meiryo", serif;
   font-weight: 500;
 }
