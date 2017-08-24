@@ -43,6 +43,10 @@ body {
 html {
   font-family: "PT Serif", Georgia, "Times New Roman", "メイリオ", "Meiryo", serif;
 }
+.win p {
+  font-family: "PT Serif", Georgia, "Times New Roman", "Yu Mincho", "YuMincho", "メイリオ", "Meiryo", serif;
+  font-weight: 500;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, "メイリオ", "Meiryo", sans-serif;
