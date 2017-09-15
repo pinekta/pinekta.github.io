@@ -19,7 +19,8 @@ WindowsでもHHKB Lite2を使っている。
 このキーボードじゃないとダメだ。
 Escキーの位置が近いこのキーボードじゃないとダメなんだ。  
 
-Win用のHHKB Lite2は２個ある。（Mac用のHHKB Lite2は１個。）  
+Win用のHHKB Lite2は２個ある。  
+（Mac用のHHKB Lite2は１個。）  
 以前は職場と自宅の２環境で使っていたが今はMac用のだけ使っている。
 
 ![HHKB Lite2](/public/image/20170916/hhkb_lite2.jpg)  
