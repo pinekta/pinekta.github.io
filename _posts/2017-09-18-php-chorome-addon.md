@@ -34,7 +34,7 @@ PHP.netをBGMとしたのはQiitaにもあるので、
 コードをちょろっと説明すると、
 新しいタブの起動をフックするためにmanifest.jsonの`chrome_url_overrides` に`newtab`の指定をしている。
 
-```manifest.json
+```json
 {
   "manifest_version": 2,
   "name": "New Tab PHP Functions",
@@ -49,7 +49,7 @@ PHP.netをBGMとしたのはQiitaにもあるので、
 
 でblank.htmlでは
 
-```blank.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -64,14 +64,14 @@ PHP.netをBGMとしたのはQiitaにもあるので、
 
 main.jsを呼び出しているだけ。
 
-```main.js
+```js
 document.write('<script src="js/urlList.js"></script>');
 document.write('<script src="js/redirect.js"></script>');
 ```
 
 ２つのJavaScriptファイルを読み込んでいる。
 
-```urlList.js
+```js
 var urlList = [
 "function.abs",
 "function.addslashes",
@@ -86,7 +86,7 @@ var urlList = [
 
 配列をここで定義して、
 
-```redirect.js
+```js
 document.location.href = "http://php.net/manual/ja/" + urlList[Math.floor(Math.random () * urlList.length)] + ".php";
 ```
 
@@ -111,7 +111,7 @@ document.location.href = "http://php.net/manual/ja/" + urlList[Math.floor(Math.r
 これもコードを説明する。  
 manifest.jsonで通知を送れるように設定しておく。
 
-```manifest.json
+```json
 {
   "manifest_version": 2,
   "name": "notify-php-functions",
@@ -133,7 +133,7 @@ manifest.jsonで通知を送れるように設定しておく。
 newtab-php-functionsと同じように対象の関数ページは別ページに定義してありランダムで通知する。
 通知部分に関しては以下のとおり。
 
-```notice.js
+```js
 /**
  * Create Notification
  * @param string functionName
