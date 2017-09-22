@@ -91,9 +91,10 @@
           var older = document.querySelector('.pagination > .older');
           var newer = document.querySelector('.pagination > .newer');
 
-          console.log(older);
-          older.href = older.href + '/';
-          newer.href = newer.href + '/';
+          if (older && newer) {
+              older.href = older.href + '/';
+              newer.href = newer.href + '/';
+          }
       })(document);
     </script>
 
