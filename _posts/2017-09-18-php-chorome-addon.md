@@ -204,16 +204,20 @@ var timer = setInterval(notify , minuteInterval);
 
 ## インストール方法
 
-Chromeのストアには配信していないので、GitHubからcloneしたものを読み込む必要がある。  
+どちらのChrome拡張もChromeのストアには配信していないので、GitHubからcloneしたものを読み込む必要がある。  
 ![add addon](/public/image/20170918/add-addon.png)
 「デベロッパーモード」のチェックボックスをONにすると「パッケージ化されていない拡張機能を読み込む」ボタンが表示されるのでcloneしたリポジトリのディレクトリを指定する。
 これで拡張がインストールされる。
 
 ## まとめ
 
-やっぱり強制的に勉強できる環境を作るのは大事だね。
+やっぱり強制的に勉強できる環境を作るのは大事。  
 これらのChrome拡張や車でphp.netを１ヶ月ほど聴いて勉強したんだけど、
-その成果はPHP5技術者認定上級試験にも合格という結果にもあらわれた。  
-もちろん↓の黒本はやった。試験勉強本だけどPHPの細かいところまで記載されている良本。
+その成果はPHP5技術者認定上級試験にも合格という結果にもあらわれたのでよかった。  
+まぁ取ったのはだいぶ昔だけど…  
+
+なかなか勉強し始めるまでが大変だから、こういうようなハックをして少しでもやる気を起こさせるようにしていこう。
+
+※ちなみに↓の黒本は良本。試験勉強本だけどPHPの細かいところまで記載されていてとてもよい。
 
 <a target="_blank"  href="https://www.amazon.co.jp/gp/product/4844334670/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4844334670&linkCode=as2&tag=pinekta02-22&linkId=d84b29c28d20828dd83f4597a5079fa7"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4844334670&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta02-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta02-22&l=am2&o=9&a=4844334670" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
