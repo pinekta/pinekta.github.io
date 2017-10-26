@@ -41,6 +41,10 @@ description: "『SCRUM BOOTCAMP THE BOOK』を読んだ。スクラム開発す�
 
 スクラムをするためにチームのRedmineにスクラム開発用のプラグイン、「Backlogs」をインストールしようとしてインストールしようとしたけれど、
 DBのマイグレーションが動作しなかった…そのためBacklogsの使用は諦めた…公式にもredmineの3系はサポートしないとも書いてあったし…
-最近のタスク管理ツールはなにがいいんだろう？Redmineより別のものが使われるのかな？
+いちおう、RedmineのプラグインでAgileというのが既存のプロジェクトに入れていたのでそれを使っている。  
+ただし、不要なステータスがあったりしたのでいろいろ整備してやってはいる。  
+スクラムをやる場合はどのツールがいいんだろう？それともホワイトボードでやっているのかな？  
+自分のチームはリモート前提なのでホワイトボードだと無理だな。  
+ホワイトボードを共有するサービスとかがいいのだろうか？
 
 <a target="_blank"  href="https://www.amazon.co.jp/gp/product/4798129712/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4798129712&linkCode=as2&tag=pinekta02-22&linkId=586649d70b11a4ed2f7c27282d86a6e6"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4798129712&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta02-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta02-22&l=am2&o=9&a=4798129712" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
