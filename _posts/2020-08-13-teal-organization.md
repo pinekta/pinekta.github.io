@@ -7,8 +7,7 @@ description: "ティール組織を読んだ。達成型のパラダイムでの
 ---
 
 前々から読もうと思っていたが読む機会がなくて積ん読状態になっていた『ティール組織――マネジメントの常識を覆す次世代型組織の出現』をようやく読んだ。  
-読むまでティール組織について憧れみたいなものがあったが、現実を見れば見るほど理想論のように思えてくる。  
-現在の自分の状況にうまく落とし込めるかどうか想像しながら読んだけど難しそうだ。  
+読むまでティール組織について憧れみたいなものがあったが、現実を見れば見るほど理想論のように思えてくる。現在の自分の状況にうまく落とし込めるかどうか想像しながら読んだけど難しそうだ。  
 
 <a target="_blank"  href="https://www.amazon.co.jp/gp/product/B078YJV9ZW/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B078YJV9ZW&linkCode=as2&tag=pinekta02-22&linkId=ba5133a019c1ffa08924e138b1f66131"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B078YJV9ZW&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta02-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta02-22&l=am2&o=9&a=B078YJV9ZW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
