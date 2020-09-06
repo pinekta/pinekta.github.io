@@ -9,11 +9,9 @@ description: "カスタマーサクセスはデジタル時代の「お得意さ
 エンジニアは開発することが仕事だけれども、 開発するシステムは当然使う人がいる。  
 使う人のことを考えずに設計・実装してしまうと、使う人はシステムの利用にストレスを感じて使うのをやめてしまうかもしれない。使う人、すなわちユーザーのことを考えずにシステムを作ると誰も幸せにならないものができあがる。
 作り手としてそれは避けたい。  
-ではユーザーにシステムを使い続けてもらうためにはどうしたらいいのだろうか。
+ではユーザーにシステムを使い続けてもらうためにはどうしたらいいのだろうか。そのヒントになるかと思い『カスタマーサクセスとは何か』という本を読んでみた。  
 
-<a target="_blank"  href="https://www.amazon.co.jp/gp/product/B07T64CMPT/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B07T64CMPT&linkCode=as2&tag=pinekta02-22&linkId=f2375ae0c9c9d13471d0aa37dd46351d"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B07T64CMPT&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=pinekta02-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=pinekta02-22&l=am2&o=9&a=B07T64CMPT" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
-そのヒントになるかと思い『カスタマーサクセスとは何か』という本を読んでみた。  
+![customer-success-book](/public/image/20200906/customer_success.jpg)
 
 本書によると、インターネットの発達した現代では前時代的な「モノの売り切りモデル」では成功できず、継続した利用が前提の「リテンションモデル」じゃないと成功できないようになったとのこと。  
 「モノの売り切りモデル」だと商品・サービスを売ってしまったらあとはおしまい。売る前（成約）にいたる前のマーケティング・サポートに全力を注げ、というモデルである。  
